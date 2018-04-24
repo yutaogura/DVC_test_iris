@@ -6,6 +6,8 @@ deps:
   path: data/X_train.pickle
 - md5: 9d6567a0347e04e71be8c524fe16ad64
   path: data/y_train.pickle
+- md5: 7ca07af56bf6a28b77ba8a5b2477c745
+  path: train.py
 outs:
 - cache: true
   md5: 26718691207d73bb0fe81ba1c15716d3

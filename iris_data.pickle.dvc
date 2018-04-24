@@ -2,6 +2,8 @@ cmd: python feature.py
 deps:
 - md5: 4e941ab0d0534af7c0505ef104d4d75e
   path: conf.py
+- md5: 88ea401af6e939382a58967008b68e4f
+  path: feature.py
 outs:
 - cache: true
   md5: 2a66122099d7e6c7532be0ca0e5b060d

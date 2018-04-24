@@ -8,4 +8,6 @@ deps:
   path: data/y_test.pickle
 - md5: 26718691207d73bb0fe81ba1c15716d3
   path: data/model.p
+- md5: da967fae551d98bd82d2b8dd5521cc48
+  path: evaluate.py
 outs: []

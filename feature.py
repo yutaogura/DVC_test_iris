@@ -2,6 +2,7 @@
 from sklearn.datasets import load_iris
 import pickle
 import conf
+import numpy as np 
 
 iris = load_iris()
 
