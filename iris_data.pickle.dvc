@@ -1,0 +1,8 @@
+cmd: python feature.py
+deps:
+- md5: 4e941ab0d0534af7c0505ef104d4d75e
+  path: conf.py
+outs:
+- cache: true
+  md5: 2a66122099d7e6c7532be0ca0e5b060d
+  path: data/iris_data.pickle

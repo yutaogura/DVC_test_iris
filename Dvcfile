@@ -1,0 +1,11 @@
+cmd: python evaluate.py
+deps:
+- md5: 4e941ab0d0534af7c0505ef104d4d75e
+  path: conf.py
+- md5: 7d568e4ad8d254a5330aba1be0dc05b5
+  path: data/X_test.pickle
+- md5: 42473e65ce04982b60b139778c7794a0
+  path: data/y_test.pickle
+- md5: 26718691207d73bb0fe81ba1c15716d3
+  path: data/model.p
+outs: []

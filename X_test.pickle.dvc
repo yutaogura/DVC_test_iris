@@ -1,0 +1,19 @@
+cmd: python train_test_split.py
+deps:
+- md5: 4e941ab0d0534af7c0505ef104d4d75e
+  path: conf.py
+- md5: 2a66122099d7e6c7532be0ca0e5b060d
+  path: data/iris_data.pickle
+outs:
+- cache: true
+  md5: 7d568e4ad8d254a5330aba1be0dc05b5
+  path: data/X_test.pickle
+- cache: true
+  md5: a6de4dc1d9d5d179c08df4fbfd2237c4
+  path: data/X_train.pickle
+- cache: true
+  md5: 42473e65ce04982b60b139778c7794a0
+  path: data/y_test.pickle
+- cache: true
+  md5: 9d6567a0347e04e71be8c524fe16ad64
+  path: data/y_train.pickle
