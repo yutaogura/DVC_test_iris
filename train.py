@@ -10,7 +10,7 @@ with open(conf.y_train,'rb') as f:
     y_train = pickle.load(f)
 
 
-logreg = LogisticRegression()
+logreg = LogisticRegression(penalty='l2',C=100)
 logreg.fit(X_train, y_train)
 
 output = conf.model

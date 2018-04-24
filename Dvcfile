@@ -6,7 +6,7 @@ deps:
   path: data/X_test.pickle
 - md5: 42473e65ce04982b60b139778c7794a0
   path: data/y_test.pickle
-- md5: 26718691207d73bb0fe81ba1c15716d3
+- md5: 3486e9a57049c53e38cbab46a6bcaab7
   path: data/model.p
 - md5: da967fae551d98bd82d2b8dd5521cc48
   path: evaluate.py
