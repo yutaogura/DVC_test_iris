@@ -2,9 +2,9 @@ cmd: python feature.py
 deps:
 - md5: 4e941ab0d0534af7c0505ef104d4d75e
   path: conf.py
-- md5: 88ea401af6e939382a58967008b68e4f
+- md5: 7a55b37c1b3bc6e83d9fb18bed49c864
   path: feature.py
 outs:
 - cache: true
-  md5: 2a66122099d7e6c7532be0ca0e5b060d
+  md5: 6d3f906ce94bef52955b4b76abb1227f
   path: data/iris_data.pickle

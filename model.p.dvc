@@ -2,7 +2,7 @@ cmd: python train.py
 deps:
 - md5: 4e941ab0d0534af7c0505ef104d4d75e
   path: conf.py
-- md5: a6de4dc1d9d5d179c08df4fbfd2237c4
+- md5: a5697ee23ac4f1ee54d459d35c737cb6
   path: data/X_train.pickle
 - md5: 9d6567a0347e04e71be8c524fe16ad64
   path: data/y_train.pickle
@@ -10,5 +10,5 @@ deps:
   path: train.py
 outs:
 - cache: true
-  md5: 3486e9a57049c53e38cbab46a6bcaab7
+  md5: 3c65a651a65a2ff0d2ee4c3b96e0595b
   path: data/model.p
